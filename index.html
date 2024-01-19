@@ -4,6 +4,19 @@
         <title>
             Milestone 1
         </title>
+
+        <!-- table styling -->
+        <style>
+            table {
+                margin: 0 auto;
+            }
+
+            table img {
+                width: 20%;
+                height: auto;
+                padding: 1px;
+            }
+        </style>
     </head>
     <body>
         <div id="greetingMessage" style="text-align: center;">
@@ -18,7 +31,7 @@
                 <a href="#AboutMe"> About Me</a> |
                 <a href="#Education"> Education</a> |
                 <a href="#Experience"> Experience</a> |
-                <a href="#ProgrammingSkills"> Programming Skills</a> |
+                <a href="#Skills"> Skills</a> |
                 <a href="#Interests"> Interests</a> |
                 <a href="#FavoriteMedia"> Favorite Media</a> |
                 <a href="#FavoriteWebsites"> Favorite Websites</a> |
@@ -29,7 +42,10 @@
         <div id="AboutMe" style="text-align: center;">
             <h3>About Me</h3>
             <img width="10%" src="https://p7.hiclipart.com/preview/218/926/400/stick-man-stick-figure-clip-art-happy-stick-man.jpg">
-            <p>My name is Yvonne Huang and I am currently a fourth year <span style="color:lightseagreen;font-weight: bold;">Computer Science</span> major at St. John's University.</p>
+            <p>Hello! My name is Yvonne Huang and I am currently a fourth year <span style="color:chocolate;font-weight: bold;">Computer Science</span> major at St. John's University.</p>
+            <p>My interest in programming sparked from a curiosity in how video games worked as I grew older.</p>
+            <p>I started my game development passion through <span style="color:palevioletred;font-weight: bold;">ROBLOX lua programming</span> and eventually gravitated towards <span style="color:teal;font-weight: bold;">Minecraft modding</span> and the <span style="color:steelblue;font-weight: bold;">Unity game engine</span>.</p>
+            <p></p>
         </div>
 
         <div id="Education" style="text-align: center;">
@@ -51,28 +67,48 @@
                     <iframe width="420" height="420" src="https://youtu.be/37QHQd62LBY"></iframe>
                     <p><a href="https://itch.io/jam/la-jam-2022/rate/1720745">Link to the game page</a></p>
                     <p>- Worked alongside a team of 6 other people to develop a game within 5 days</p>
+                    <p>- The game theme was "You are your own enemy". <br>The game is played through a mirror mechanic where you control two different players with inverted movement.</p>
                 </li>
                 <li>
-                    <h4><i>theCoderSchool Programming Tutor (2023)</i></h4>
-                    <p>- Taught children from the ages of 7-15 the basics of different programming languages</p>
-                    <p>- Worked with other tutors to come up with fun project ideas/assignments</p>
+                    <h4><i>Synford Text-Based RPG</i></h4>
+                    <p><a href="https://github.com/wewewe08/Synford-Text-Based-RPG">Source code</a></p>
+                    <p>- Solo project programmed in Python: The player decides their own path by typing their choices into the terminal.</p>
+                    <p>- Video demo is shown on the github repository.</p>
                 </li>
             </ul>
         </div>
 
-        <div id="ProgrammingSkills" style="text-align: center;">
-            <h3>Programming Skills</h3>
-            <!-- setting padding and margin to 0 removes default spacing and centers element horizontally -->
-            <ol style="text-align: left; padding: 0; margin: 0 auto; width: fit-content;">
-                <li>Python</li>
-                <li>Java</li>
-                <li>C#</li>
-                <li>C++</li>
-            </ol>
-            <p>The list is ordered in level of proficiency from top to bottom; top being the most proficient.</p> 
-            <p>Python is the language that I tend to program in the most and the language that I am the most comfortable with.</p>
-            <p>Java is the language that I learned through school and I gradually became proficient in it as I continued my coursework.</p>
-            <p>The C languages are still a work in progress.</p>
+        <div id="Skills" style="text-align: center;">
+            <h3>Skills</h3>
+            <table>
+                <tr>
+                    <th><span style="color:dodgerblue;">Front-end Development</span></th>
+                    <th><span style="color:dodgerblue;">Back-end Development</span></th>
+                    <th><span style="color:dodgerblue;">Tools</span></th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="images/html.png" alt="HTML">
+                    </td>
+                    <td>
+                        <img src="images/python.png" alt="Python">
+                        <img src="images/java.png" alt="Java">
+                        <img src="images/cs.png" alt="C#">
+                        <img src="images/mysql.png" alt="MySQL">
+                    </td>
+                    <td>
+                        <img src="images/vscode.png" alt="VS Code">
+                        <img src="images/git.png" alt="Git">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>HTML</td>
+                    <td>Python | Java | C# | MySQL</td>
+                    <td>VS Code | Git</td>
+                </tr>
+            </table>
         </div>
 
         <div id="Interests" style="text-align: center;">
