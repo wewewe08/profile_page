@@ -7,6 +7,17 @@
 
         <!-- centers the table and adjusts image size within the row -->
         <style>
+            div {
+                text-align: center;
+            }
+
+            ul{
+                text-align: left; 
+                padding: 0; 
+                margin: 0 auto; 
+                width: fit-content;
+            }
+
             table {
                 margin: 0 auto; 
             }
@@ -16,16 +27,24 @@
                 height: auto;
                 padding: 1px;
             }
+
+            th td{
+                padding: 50px;
+            }
+
+            footer {
+                text-align: center;
+            }
         </style>
     </head>
     <body>
-        <div id="greetingMessage" style="text-align: center;">
+        <div id="greetingMessage">
             <h1>
                 Welcome to my profile!
             </h1>
         </div>
 
-        <div id="Menu" style="text-align: center;">
+        <div id="Menu">
             <nav>
                 <a href="#Menu"> Menu</a> |
                 <a href="#AboutMe"> About Me</a> |
@@ -39,36 +58,40 @@
             </nav>
         </div>
 
-        <div id="AboutMe" style="text-align: center;">
+        <div id="AboutMe">
             <h3>About Me</h3>
             <img width="10%" src="images/yvonneprofile.jpg">
-            <p>Hello! My name is Yvonne Huang and I am currently a fourth year <span style="color:chocolate;font-weight: bold;">Computer Science</span> major at St. John's University.</p>
+            <p>Hello! My name is Yvonne Huang and I am currently a fourth year <span style="color:firebrick;font-weight: bold;">Computer Science</span> major at St. John's University.</p>
             <p>My interest in programming sparked from a curiosity in how video games worked as I grew older.</p>
-            <p>I started my game development passion through <span style="color:palevioletred;font-weight: bold;">ROBLOX lua programming</span> and eventually gravitated towards <span style="color:teal;font-weight: bold;">Minecraft modding</span> and the <span style="color:steelblue;font-weight: bold;">Unity game engine</span>.</p>
+            <p>I started my game development passion through <span style="color:firebrick;font-weight: bold;">ROBLOX lua programming</span> and eventually gravitated towards <span style="color:firebrick;font-weight: bold;">Minecraft modding</span> and the <span style="color:firebrick;font-weight: bold;">Unity game engine</span>.</p>
             <p></p>
         </div>
 
-        <div id="Education" style="text-align: center;">
+        <div id="Education">
             <h3>Education</h3>
             <img width="10%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.fpFsRbIxQaDA8CiU1ftUxwAAAA%26pid%3DApi&f=1&ipt=6e61ffffb261842053710978c2f12ae140b0b282f26ace71564e9019a5fd6ad6&ipo=images">
             <p>
-                <b>Degree: </b>B.S. in Computer Science
+                <span style="color:firebrick;font-weight: bold;">Degree: </span>B.S. in Computer Science
                 <br>
-                <b>Graduation Date: </b>May 2024
+                <span style="color:firebrick;font-weight: bold;">Graduation Date: </span>May 2024
             </p>
         </div>
 
-        <div id="Experience" style="text-align: center;">
+        <div id="Experience">
             <h3>Experience</h3>
             <!-- setting padding and margin to 0 removes default spacing and centers element horizontally -->
-            <ul style="text-align: left; padding: 0; margin: 0 auto; width: fit-content;">
+            <ul>
                 <li>
-                    <h4><i>"I Need Space" Developed for LA JAM 2022 (Game Jam)</i></h4>
+                    <h4>
+                        <i>"I Need Space" Developed for LA JAM 2022 (Game Jam)</i>
+                    </h4>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/37QHQd62LBY?si=vu3S4pmhrxiWS3Kb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p><a href="https://itch.io/jam/la-jam-2022/rate/1720745">Link to the game page</a></p>
                     <p>- Worked alongside a team of 6 other people to develop a game within 5 days</p>
                     <p>- Programmed in C# using the Unity game engine</p>
-                    <p>- The game theme was "You are your own enemy". <br>The game is played through a mirror mechanic where you control two different players with inverted movement.</p>
+                    <p>- The game theme was "You are your own enemy". 
+                        <br>The game is played through a mirror mechanic where you control two different players with inverted movement.
+                    </p>
                 </li>
                 <li>
                     <h4><i>Synford Text-Based RPG</i></h4>
@@ -79,13 +102,19 @@
             </ul>
         </div>
 
-        <div id="Skills" style="text-align: center;">
+        <div id="Skills">
             <h3>Skills</h3>
             <table>
                 <tr>
-                    <th><span style="color:dodgerblue;">Front-end Development</span></th>
-                    <th><span style="color:dodgerblue;">Back-end Development</span></th>
-                    <th><span style="color:dodgerblue;">Tools</span></th>
+                    <th>
+                        <span style="color:firebrick;">Front-end Development</span>
+                    </th>
+                    <th>
+                        <span style="color:firebrick;">Back-end Development</span>
+                    </th>
+                    <th>
+                        <span style="color:firebrick;">Tools</span>
+                    </th>
                 </tr>
 
                 <tr>
@@ -105,33 +134,87 @@
                 </tr>
 
                 <tr>
-                    <td>HTML</td>
-                    <td>Python | Java | C# | MySQL</td>
-                    <td>VS Code | Git</td>
+                    <td>
+                        <span style="color:dimgray;">HTML</span>
+                    </td>
+                    <td>
+                        <span style="color:dimgray;">Python | Java | C# | MySQL</span>
+                    </td>
+                    <td>
+                        <span style="color:dimgray;">VS Code | Git</span>
+                    </td>
                 </tr>
             </table>
         </div>
 
-        <div id="Interests" style="text-align: center;">
+        <div id="Interests">
             <h3>Interests</h3>
             <p>
                 
             </p>
         </div>
 
-        <div id="FavoriteMedia" style="text-align: center;">
+        <div id="FavoriteMedia">
             <h3>Favorite Media</h3>
+            <table>
+                <tr>
+                    <th>
+                        <span style="color:firebrick;">Favorite Song</span>
+                    </th>
+                    <th>
+                        <span style="color:firebrick;">Favorite Movie</span>
+                    </th>
+                    <th>
+                        <span style="color:firebrick;">Favorite TV Show</span>
+                    </th>
+                </tr>
 
+                <tr>
+                    <td>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4vJfBno2d0mTjMcYn5lEln?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </td>
+                    <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/iwROgK94zcM?si=0pVsEem_1jxThadv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </td>
+                    <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/aOC8E8z_ifw?si=cArrpsLdB0mAWGUN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span style="color:dimgray;">Ballroom Extravaganza</span>
+                    </td>
+                    <td>
+                        <span style="color:dimgray;">Howl's Moving Castle</span>
+                    </td>
+                    <td>
+                        <span style="color:dimgray;">The Mandalorian</span>
+                    </td>
+                </tr>
+            </table>
         </div>
 
-        <div id="FavoriteWebsites" style="text-align: center;">
+        <div id="FavoriteWebsites">
             <h3>Favorite Websites</h3>
-
+            
         </div>
 
-        <div id="Projects" style="text-align: center;">
-            <h3>Projects</h3>
-
+        <div id="Projects">
+            <h3>CUS1172 Projects</h3>
+            <ul>
+                <li>
+                    <a href="https://github.com/wewewe08/profile_page">Deploy a Profile Page</a>
+                </li>
+            </ul>
+            <!-- Adding some space between the Projects section and the footer section -->
+            <br><br>
         </div>
+
+        <!-- Footer -->
+        <footer>
+            <a href="#">Back to top</a>
+            <p>&copy;Yvonne Huang | yvonne.huang20@stjohns.edu</p>
+        </footer>
     </body>
 </html>
