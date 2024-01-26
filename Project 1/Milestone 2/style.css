@@ -16,7 +16,7 @@ header {
 }
 
 .logo {
-    width: 10%;
+    width: 45%;
     cursor: pointer;
 }
 
@@ -38,6 +38,25 @@ header {
 
 .nav_links li a:hover{
     color: #E71D36;
+}
+
+/* profile styling */
+
+.profile {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #939597;
+}
+
+.profile img {
+    width: 100px;
+}
+
+.profile h1 h2 {
+    color: white;
 }
 
 /* body styling */
