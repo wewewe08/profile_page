@@ -5,13 +5,18 @@
             Yvonne Huang | Developer
         </title>
         <link rel="icon" type="image/x-icon" href="images/icon.ico">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="style.css">
 
         <style>
-            div {
-                text-align: center;
-                margin: 30px;
-                background-color: white;
+            p {
+                display: block;
+                width: 100%;
+                font-size: 20px;
             }
         </style>
     </head>
@@ -37,208 +42,245 @@
         <div class="profile">
             <img src="images/profile.jpg">
             <h1>Yvonne Huang</h1>
-            <h2>Student | Developer</h2>
+            <h3>Student | Developer</h3>
         </div>
 
-        <div id="AboutMe">
-            <h3>About Me</h3>
-            
-            <p>Hello! My name is Yvonne Huang and I am currently a fourth year <span style="color:firebrick;font-weight: bold;">Computer Science</span> major at St. John's University.</p>
-            <p>My interest in programming sparked from a curiosity in how video games worked as I grew older.</p>
-            <p>I started my game development passion through <span style="color:firebrick;font-weight: bold;">ROBLOX lua programming</span> and eventually gravitated towards <span style="color:firebrick;font-weight: bold;">Minecraft modding</span> and the <span style="color:firebrick;font-weight: bold;">Unity game engine</span>.</p>
-            <p></p>
+        <div class="section_title">
+            <h2>About Me</h2>
         </div>
 
-        <br>
-
-        <div id="Education">
-            <h3>Education</h3>
-            <img width="10%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.fpFsRbIxQaDA8CiU1ftUxwAAAA%26pid%3DApi&f=1&ipt=6e61ffffb261842053710978c2f12ae140b0b282f26ace71564e9019a5fd6ad6&ipo=images">
-            <p>
-                <span style="color:firebrick;font-weight: bold;">Degree: </span>B.S. in Computer Science
-                <br>
-                <span style="color:firebrick;font-weight: bold;">Graduation Date: </span>May 2024
-            </p>
+        <div class="section" id="AboutMe">
+            <div class="container">
+                <p>Hello! My name is Yvonne Huang and I am currently a fourth year Computer Science major at St. John's University.
+                    <br>
+                    My interest in programming sparked from a curiosity in how video games worked as I grew older.
+                    <br>
+                    I started my game development passion through ROBLOX lua programming and eventually gravitated towards Minecraft modding and the Unity game engine.
+                    </p>
+            </div>
         </div>
 
-        <br>
-
-        <div id="Experience">
-            <h3>Experience</h3>
-            <!-- setting padding and margin to 0 removes default spacing and centers element horizontally -->
-            <ul>
-                <li>
-                    <h4>
-                        <span style="font-style: italic;">"I Need Space" Developed for LA JAM 2022 (Game Jam)</span>
-                    </h4>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/37QHQd62LBY?si=vu3S4pmhrxiWS3Kb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <p><a href="https://itch.io/jam/la-jam-2022/rate/1720745">Link to the game page</a></p>
-                    <p>- Collaborated with 6 other people to develop a game within 5 days.</p>
-                    <p>- Programmed the movement and UI in C# using the Unity game engine.</p>
-                    <p>- Helped implement character animations using the Unity animator and custom animation states.</p>
-                </li>
-                <li>
-                    <h4>
-                        <span style="font-style: italic;">Synford Text-Based RPG</span>
-                    </h4>
-                    <p><a href="https://github.com/wewewe08/Synford-Text-Based-RPG">Source code</a></p>
-                    <p>- Solo project programmed in Python and played in the terminal.</p>
-                    <p>- Video demo is shown on the github repository.</p>
-                </li>
-            </ul>
+        <div class="section_title">
+            <h2>Educaiton</h2>
         </div>
 
-        <div id="Skills">
-            <h3>Skills</h3>
-            <table>
-                <tr>
-                    <th>
-                        <span style="color:firebrick;">Front-end Development</span>
-                    </th>
-                    <th>
-                        <span style="color:firebrick;">Back-end Development</span>
-                    </th>
-                    <th>
-                        <span style="color:firebrick;">Tools</span>
-                    </th>
-                </tr>
-
-                <tr>
-                    <td>
-                        <img src="images/html.png" alt="HTML">
-                    </td>
-                    <td>
-                        <img src="images/python.png" alt="Python">
-                        <img src="images/java.png" alt="Java">
-                        <img src="images/cs.png" alt="C#">
-                        <img src="images/mysql.png" alt="MySQL">
-                    </td>
-                    <td>
-                        <img src="images/vscode.png" alt="VS Code">
-                        <img src="images/git.png" alt="Git">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <span style="color:dimgray;">HTML</span>
-                    </td>
-                    <td>
-                        <span style="color:dimgray;">Python | Java | C# | MySQL</span>
-                    </td>
-                    <td>
-                        <span style="color:dimgray;">VS Code | Git</span>
-                    </td>
-                </tr>
-            </table> 
-
-            <p>
-                <span style="color:firebrick; font-weight: bold">Proficient: </span>
-                Python, Java, VS Code, Git
-
-                <br>
-
-                <span style="color:firebrick; font-weight: bold">Intermediate: </span>
-                C#, MySQL
-
-                <br>
-
-                <span style="color:firebrick; font-weight: bold;">Novice: </span>
-                HTML
-            </p>
+        <div class="section" id="Education">
+            <div class="container">
+                <p>
+                    <img width="10%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.fpFsRbIxQaDA8CiU1ftUxwAAAA%26pid%3DApi&f=1&ipt=6e61ffffb261842053710978c2f12ae140b0b282f26ace71564e9019a5fd6ad6&ipo=images">
+                    <br>
+                    <span style="color:firebrick;font-weight: bold;">Degree: </span>B.S. in Computer Science
+                    <br>
+                    <span style="color:firebrick;font-weight: bold;">Graduation Date: </span>May 2024
+                </p>
+            </div>
         </div>
 
-        <div id="Interests">
-            <h3>Interests</h3>
-            <p>
-                In my free time, I enjoy reading books and playing video games with friends.
-                <br>
-                Another hobby of mine is to edit videos of things I enjoy!
-                <br>
-                For example, I made the short game jam video(above) for my team.
-                <br>
-                I have also been trying to learn more about pixel art as well as trying to cook more often.
-            </p>
+        <div class="section_title">
+            <h2>Experience</h2>
         </div>
 
-        <div id="FavoriteMedia">
-            <h3>Favorite Media</h3>
-            <table>
-                <tr>
-                    <th>
-                        <span style="color:firebrick;">Favorite Song</span>
-                    </th>
-                    <th>
-                        <span style="color:firebrick;">Favorite Movie</span>
-                    </th>
-                    <th>
-                        <span style="color:firebrick;">Favorite TV Show</span>
-                    </th>
-                </tr>
-
-                <tr>
-                    <td>
-                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4vJfBno2d0mTjMcYn5lEln?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                    </td>
-                    <td>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/iwROgK94zcM?si=0pVsEem_1jxThadv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </td>
-                    <td>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/aOC8E8z_ifw?si=cArrpsLdB0mAWGUN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <span style="color:dimgray;">Ballroom Extravaganza</span>
-                    </td>
-                    <td>
-                        <span style="color:dimgray;">Howl's Moving Castle</span>
-                    </td>
-                    <td>
-                        <span style="color:dimgray;">The Mandalorian</span>
-                    </td>
-                </tr>
-            </table>
+        <div class="section" id="Experience">   
+            <div class="container">
+                <ul>
+                    <li>
+                        <h4>
+                            <span style="font-style: italic;">"I Need Space" Developed for LA JAM 2022 (Game Jam)</span>
+                        </h4>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/37QHQd62LBY?si=vu3S4pmhrxiWS3Kb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p><a href="https://itch.io/jam/la-jam-2022/rate/1720745">Link to the game page</a></p>
+                        <p>- Collaborated with 6 other people to develop a game within 5 days.</p>
+                        <p>- Programmed the movement and UI in C# using the Unity game engine.</p>
+                        <p>- Helped implement character animations using the Unity animator and custom animation states.</p>
+                    </li>
+                    <li>
+                        <h4>
+                            <span style="font-style: italic;">Synford Text-Based RPG</span>
+                        </h4>
+                        <p><a href="https://github.com/wewewe08/Synford-Text-Based-RPG">Source code</a></p>
+                        <p>- Solo project programmed in Python and played in the terminal.</p>
+                        <p>- Video demo is shown on the github repository.</p>
+                    </li>
+                </ul>
+            </div>
         </div>
 
-        <div id="FavoriteWebsites">
-            <h3>Favorite Websites</h3>
-            <ul>
-                <li>
-                    <span style="font-weight: bold;">Google</span>
-                </li>
-
-                <span style="font-style: italic;">Try it!</span>
-                <form action="https://www.google.com/search?q=">
-                    <input type="text" placeholder="Search something!" name="q">
-                    <input type="submit" placeholder="Search"/>
-                </form>
-
-                <br>
-
-                <li>
-                    <span style="font-weight: bold;">Youtube</span>
-                </li>
-
-                <span style="font-style: italic;">Try it!</span>
-                <form action="https://www.youtube.com/results?search_query=">
-                    <input type="text" placeholder="Search something!" name="q">
-                    <input type="submit" placeholder="Search"/>
-                </form>
-            </ul>
-            <p>
-                These are my most-used websites throughout my day!
-            </p>
+        <div class="section_title">
+            <h2>Skills</h2>
         </div>
 
-        <div id="Projects">
-            <h3>CUS1172 Projects</h3>
-            <ul>
-                <li>
-                    <a href="https://github.com/wewewe08/profile_page">Deploy a Profile Page</a>
-                </li>
-            </ul>
+        <div class="section" id="Skills">
+            <div class="container">
+                <table>
+                    <tr>
+                        <th>
+                            <span style="color:firebrick;">Front-end Development</span>
+                        </th>
+                        <th>
+                            <span style="color:firebrick;">Back-end Development</span>
+                        </th>
+                        <th>
+                            <span style="color:firebrick;">Tools</span>
+                        </th>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <img src="images/html.png" alt="HTML">
+                        </td>
+                        <td>
+                            <img src="images/python.png" alt="Python">
+                            <img src="images/java.png" alt="Java">
+                            <img src="images/cs.png" alt="C#">
+                            <img src="images/mysql.png" alt="MySQL">
+                        </td>
+                        <td>
+                            <img src="images/vscode.png" alt="VS Code">
+                            <img src="images/git.png" alt="Git">
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            HTML
+                        </td>
+                        <td>
+                            Python | Java | C# | MySQL
+                        </td>
+                        <td>
+                            VS Code | Git
+                        </td>
+                    </tr>
+                </table> 
+    
+                <p>
+                    <span style="color:firebrick; font-weight: bold">Proficient: </span>
+                    Python, Java, VS Code, Git
+    
+                    <br>
+    
+                    <span style="color:firebrick; font-weight: bold">Intermediate: </span>
+                    C#, MySQL
+    
+                    <br>
+    
+                    <span style="color:firebrick; font-weight: bold;">Novice: </span>
+                    HTML
+                </p>
+            </div>
+        </div>
+
+        <div class="section_title">
+            <h2>Interests</h2>
+        </div>
+
+        <div class="section" id="Interests">
+            <div class="container">
+                <p>
+                    In my free time, I enjoy reading books and playing video games with friends.
+                    <br>
+                    Another hobby of mine is to edit videos of things I enjoy!
+                    <br>
+                    For example, I made the short game jam video(above) for my team.
+                    <br>
+                    I have also been trying to learn more about pixel art as well as trying to cook more often.
+                </p>
+            </div>     
+        </div>
+
+        <div class="section_title">
+            <h2>Favorite Media</h2>
+        </div>
+
+        <div class="section" id="FavoriteMedia">
+            <div class="container">
+                <table>
+                    <tr>
+                        <th>
+                            <span style="color:firebrick;">Favorite Song</span>
+                        </th>
+                        <th>
+                            <span style="color:firebrick;">Favorite Movie</span>
+                        </th>
+                        <th>
+                            <span style="color:firebrick;">Favorite TV Show</span>
+                        </th>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4vJfBno2d0mTjMcYn5lEln?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </td>
+                        <td>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/iwROgK94zcM?si=0pVsEem_1jxThadv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </td>
+                        <td>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/aOC8E8z_ifw?si=cArrpsLdB0mAWGUN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <span style="color:dimgray;">Ballroom Extravaganza</span>
+                        </td>
+                        <td>
+                            <span style="color:dimgray;">Howl's Moving Castle</span>
+                        </td>
+                        <td>
+                            <span style="color:dimgray;">The Mandalorian</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="section_title">
+            <h2>Favorite Websites</h2>
+        </div>
+
+        <div class="section" id="FavoriteWebsites"> 
+            <div class="container">
+                <ul>
+                    <li>
+                        <span style="font-weight: bold;">Google</span>
+                    </li>
+    
+                    <span style="font-style: italic;">Try it!</span>
+                    <form action="https://www.google.com/search?q=">
+                        <input type="text" placeholder="Search something!" name="q">
+                        <input type="submit" placeholder="Search"/>
+                    </form>
+    
+                    <br>
+    
+                    <li>
+                        <span style="font-weight: bold;">Youtube</span>
+                    </li>
+    
+                    <span style="font-style: italic;">Try it!</span>
+                    <form action="https://www.youtube.com/results?search_query=">
+                        <input type="text" placeholder="Search something!" name="q">
+                        <input type="submit" placeholder="Search"/>
+                    </form>
+                </ul>
+                <p>
+                    These are my most-used websites throughout my day!
+                </p>
+            </div>
+        </div>
+
+        <div class="section_title">
+            <h2>CUS1172 Projects</h2>
+        </div>
+
+        <div class="section" id="Projects">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="https://github.com/wewewe08/profile_page">Deploy a Profile Page</a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <!-- Footer -->
