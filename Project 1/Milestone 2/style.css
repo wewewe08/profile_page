@@ -2,7 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color:slategrey;
+    background-color:#E8EAE3;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* nav menu styling */
@@ -35,23 +39,23 @@ header {
     text-decoration: none;
     font-family: "Poppins", sans-serif;
 
-    color: white;
+    color: #373833;
 }
 
 .nav_links li a:hover{
-    color: #E71D36;
+    color: #FA2742;
 }
 
 /* profile styling */
 
 .profile {
-    color: white;
+    color: #373833;
 }
 
 .profile img {
-    width: 100px;
-    height: 130px;
-    border-radius: 45%;
+    height: 110px; 
+    width: 100px; 
+    border-radius: 50%
 }
 
 .profile h1 {
@@ -80,7 +84,7 @@ div {
 
 div h2 {
     padding: 50px;
-    color: white;
+    color: #FA2742;
 }
 
 .profile {
@@ -89,10 +93,11 @@ div h2 {
 
 .section {
     min-height: 80vh;
-    background-color: white;
+    background-color: #fff;
 }
 
 .section .container {
+    margin: auto;
     width: 100%;
 }
 
