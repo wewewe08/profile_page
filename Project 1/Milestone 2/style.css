@@ -83,7 +83,7 @@ div {
 }
 
 div h2 {
-    padding: 50px;
+    padding: 0px;
     color: #FA2742;
 }
 
@@ -91,35 +91,30 @@ div h2 {
     min-height: 100vh;
 }
 
+.section_title {
+    margin-top: 100px;
+}
+
 .section {
-    min-height: 80vh;
-    background-color: #fff;
+    min-height: 70vh;
 }
 
-.section .container {
-    margin: auto;
-    width: 100%;
+#experience_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: auto;
+    max-width: 900px;
 }
 
-ul{
-    text-align: left; 
-    padding: 0; 
-    margin: 0 auto; 
-    width: fit-content;
+#experience_container .scroll_item {
+    margin: 100px 0;
+    padding: 20px;
+    min-width: 100%;
 }
 
-table {
-    margin: 0 auto; 
-}
-
-table img {
-    width: 20%;
-    height: auto;
-    padding: 1px;
-}
-
-th td{
-    padding: 50px;
+#experience_container .scroll_item p {
+    font-size: 16px;
 }
 
 footer {
