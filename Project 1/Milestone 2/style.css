@@ -58,14 +58,6 @@ header {
     border-radius: 50%
 }
 
-.profile h1 {
-    font-weight: 500;
-}
-
-.profile h3 { 
-    font-weight: 300;
-}
-
 /* body styling */
 
 div {
@@ -92,11 +84,28 @@ div h2 {
 }
 
 .section_title {
-    margin-top: 100px;
+    margin: 40px;
 }
 
 .section {
-    min-height: 70vh;
+    min-height: 30vh;
+}
+
+.section .container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.highlight {
+    color: #FA2742;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sub-highlight {
+    color: #888B8D;
+    font-size: 18px;
 }
 
 #experience_container {
@@ -104,7 +113,28 @@ div h2 {
     flex-direction: row;
     justify-content: flex-start;
     overflow-x: auto;
-    max-width: 900px;
+}
+
+#experience_container::-webkit-scrollbar {
+    width: 6px;
+}
+
+#experience_container::-webkit-scrollbar-thumb {
+    background-color: #dd253d;
+    border-radius: 6px;
+}
+
+#experience_container::-webkit-scrollbar-thumb:hover {
+    background-color: #FA2742;
+}
+  
+#experience_container::-webkit-scrollbar-track {
+    background: #cccec9;
+    border-radius: 10px;
+}
+
+#experience_container::-webkit-scrollbar-track:hover {
+    background: #aeafaa;
 }
 
 #experience_container .scroll_item {
@@ -117,6 +147,16 @@ div h2 {
     font-size: 16px;
 }
 
+#skills_container table {
+    margin: 20px auto;
+}
+
+#skills_container td{
+    padding: 0 40px;
+}
+
 footer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     text-align: center;
 }

@@ -16,7 +16,7 @@
             p {
                 display: block;
                 width: 100%;
-                font-size: 20px;
+                font-size: 18px;
             }
         </style>
     </head>
@@ -41,8 +41,8 @@
 
         <div class="profile">
             <img src="images/profile.jpg">
-            <h1>Yvonne Huang</h1>
-            <h3>Student | Developer</h3>
+            <h1 style="color: #FA2742; font-weight: 500;">Yvonne Huang</h1>
+            <h3 style="font-weight: 300;">Student | Developer</h3>
         </div>
 
         <div class="section_title" id="AboutMe">
@@ -51,12 +51,14 @@
 
         <div class="section">
             <div class="container" id="about_me_container">
-                <p>Hello! My name is Yvonne Huang and I am currently a fourth year Computer Science major at St. John's University.
-                    <br>
-                    My interest in programming sparked from a curiosity in how video games worked as I grew older.
-                    <br>
-                    I started my game development passion through ROBLOX lua programming and eventually gravitated towards Minecraft modding and the Unity game engine.
+                <div class="paragraph">
+                    <p>
+                        <span class="highlight">Hello!</span>
+                        My name is Yvonne Huang and I am currently a fourth year Computer Science major at St. John's University.
+                        My interest in programming sparked from a curiosity in how video games worked as I grew older.
+                        I started my game development passion through ROBLOX lua programming and eventually gravitated towards Minecraft modding and the Unity game engine.
                     </p>
+                </div>
             </div>
         </div>
 
@@ -67,11 +69,13 @@
         <div class="section">
             <div class="container" id="education_container">
                 <p>
-                    <img width="10%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.fpFsRbIxQaDA8CiU1ftUxwAAAA%26pid%3DApi&f=1&ipt=6e61ffffb261842053710978c2f12ae140b0b282f26ace71564e9019a5fd6ad6&ipo=images">
+                    <svg width="150" height="150">
+                        <image xlink:href="https://www.stjohns.edu/themes/sju_theme/assets/logos/logo-footer.svg" width="150" height="150" alt="school logo"/>
+                    </svg>
                     <br>
-                    <span style="color:firebrick;font-weight: bold;">Degree: </span>B.S. in Computer Science
+                    <span class="highlight">Degree: </span>B.S. in Computer Science
                     <br>
-                    <span style="color:firebrick;font-weight: bold;">Graduation Date: </span>May 2024
+                    <span class="highlight">Graduation Date: </span>May 2024
                 </p>
             </div>
         </div>
@@ -80,41 +84,39 @@
             <h2>Experience</h2>
         </div>
 
-        <div class="section">   
+        <div class="section">
             <div class="container" id="experience_container">
                 <div class = "scroll_item" id = "game_jam">
                     <p>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/37QHQd62LBY?si=YQROo7P0o3Ill7xy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         <br>
-                        <strong>I Need Space</strong>
+                        <span class="highlight">I Need Space</span>
                         <br>
                         I Need Space is a singleplayer game developed in the Unity game engine for the LA Game Jam(2022). 
-                        <br>
                         I worked on the game as a programmer and implemented the user interface alongside some of the character animations. 
-                        <br>
                         You play as two characters at the same time, but the catch is that they have inverted movement mechanics.
                     </p>
                 </div>
 
                 <div class = "scroll_item" id = "vehicular">
                     <p>
-                        <strong>Vehicular Cloud Real Time System (VCRTS)</strong>
+                        <span class="highlight">Vehicular Cloud Real Time System (VCRTS)</span>
                         <br>
                         VCRTS is a system simulation that manages computational resources and jobs into a database.
-                        <br>
                         I helped to program the user interface of the system by using JSwing and Java.
-                        <br>
                         Furthermore, I also aided in implementing the database collection using MySQL.
                     </p>
                 </div>
 
                 <div class = "scroll_item" id = "synford">
+                    <img src="https://private-user-images.githubusercontent.com/31106392/269437085-b41cf945-cb70-4c3e-9484-d4abe511f231.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY0MTY5MDgsIm5iZiI6MTcwNjQxNjYwOCwicGF0aCI6Ii8zMTEwNjM5Mi8yNjk0MzcwODUtYjQxY2Y5NDUtY2I3MC00YzNlLTk0ODQtZDRhYmU1MTFmMjMxLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTI4VDA0MzY0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU4ODVhM2YyZGRlN2NiNjZiYjNiOWIwODRmNmY4M2I5NjI0OGVhNTg0MmZjZjFmMDU5MDdmODEwNmU4NGFmNTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.qKviGXbLW2YRbcnXXjzfrJ4pChFaPJiQ6JIJyeGNo0c">
+                    <br>
                     <p>
-                        <strong>Synford Text-Based RPG</strong>
+                        <span class="highlight">Synford Text-Based RPG</span>
                         <br>
                         Synford is a singleplayer game programmed in python and is played through the terminal.
-                        <br>
-                        This was a solo project I had started in 2022.
+                        This was a solo project I had started in 2022 in order to learn more about Python.
+                        It includes a working inventory system as well as turn-based combat and randomized drops.
                     </p>
                 </div>
             </div>
@@ -129,58 +131,71 @@
                 <table>
                     <tr>
                         <th>
-                            <span style="color:firebrick;">Front-end Development</span>
+                            <span class="highlight">Front-end Development</span>
                         </th>
                         <th>
-                            <span style="color:firebrick;">Back-end Development</span>
+                            <span class="highlight">Back-end Development</span>
                         </th>
                         <th>
-                            <span style="color:firebrick;">Tools</span>
+                            <span class="highlight">Tools</span>
                         </th>
                     </tr>
     
                     <tr>
                         <td>
-                            <img src="images/html.png" alt="HTML">
+                            <svg width="50" height="50">
+                                <image xlink:href="images/html.png" width="50" height="50" alt="HTML" />
+                            </svg>
+                            <svg width="50" height="50">
+                                <image xlink:href="images/css.png" width="50" height="50" alt="CSS" />
+                            </svg>
                         </td>
                         <td>
-                            <img src="images/python.png" alt="Python">
-                            <img src="images/java.png" alt="Java">
-                            <img src="images/cs.png" alt="C#">
-                            <img src="images/mysql.png" alt="MySQL">
+                            <svg width="50" height="50">
+                                <image xlink:href="images/python.png" width="50" height="50" alt="Python" />
+                            </svg>
+                            <svg width="50" height="50">
+                                <image xlink:href="images/java.png" width="50" height="50" alt="Java" />
+                            </svg>
+                            <svg width="50" height="50">
+                                <image xlink:href="images/cs.png" width="50" height="50" alt="C#" />
+                            </svg>
+                            <svg width="50" height="50">
+                                <image xlink:href="images/mysql.png" width="50" height="50" alt="MySQL" />
+                            </svg>
                         </td>
                         <td>
-                            <img src="images/vscode.png" alt="VS Code">
-                            <img src="images/git.png" alt="Git">
+                            <svg width="50" height="50">
+                                <image xlink:href="images/vscode.png" width="40" height="40" alt="VS Code" />
+                            </svg>
+                            <svg width="50" height="50">
+                                <image xlink:href="images/git.png" width="40" height="40" alt="Git" />
+                            </svg>
                         </td>
                     </tr>
     
                     <tr>
                         <td>
-                            HTML
+                            <span class="sub-highlight">HTML | CSS</span>
                         </td>
                         <td>
-                            Python | Java | C# | MySQL
+                            <span class="sub-highlight">Python | Java | C# | MySQL</span>
                         </td>
                         <td>
-                            VS Code | Git
+                            <span class="sub-highlight">VS Code | Git</span>
                         </td>
                     </tr>
                 </table> 
     
                 <p>
-                    <span style="color:firebrick; font-weight: bold">Proficient: </span>
+                    <span class="highlight">Proficient: </span>
                     Python, Java, VS Code, Git
-    
+                    <br> 
+                    <span class="highlight">Intermediate: </span>
+                    C#
                     <br>
-    
-                    <span style="color:firebrick; font-weight: bold">Intermediate: </span>
-                    C#, MySQL
-    
-                    <br>
-    
-                    <span style="color:firebrick; font-weight: bold;">Novice: </span>
-                    HTML
+                    <span class="highlight">Novice: </span>
+                    HTML, CSS, MySQL
                 </p>
             </div>
         </div>
@@ -212,13 +227,13 @@
                 <table>
                     <tr>
                         <th>
-                            <span style="color:firebrick;">Favorite Song</span>
+                            <span class="highlight">Favorite Song</span>
                         </th>
                         <th>
-                            <span style="color:firebrick;">Favorite Movie</span>
+                            <span class="highlight">Favorite Movie</span>
                         </th>
                         <th>
-                            <span style="color:firebrick;">Favorite TV Show</span>
+                            <span class="highlight">Favorite TV Show</span>
                         </th>
                     </tr>
     
@@ -236,13 +251,13 @@
     
                     <tr>
                         <td>
-                            <span style="color:dimgray;">Ballroom Extravaganza</span>
+                            <span class="sub-highlight">Ballroom Extravaganza</span>
                         </td>
                         <td>
-                            <span style="color:dimgray;">Howl's Moving Castle</span>
+                            <span class="sub-highlight">Howl's Moving Castle</span>
                         </td>
                         <td>
-                            <span style="color:dimgray;">The Mandalorian</span>
+                            <span class="sub-highlight">The Mandalorian</span>
                         </td>
                     </tr>
                 </table>
@@ -257,10 +272,10 @@
             <div class="container" id="websites_container">
                 <ul>
                     <li>
-                        <span style="font-weight: bold;">Google</span>
+                        Google
                     </li>
     
-                    <span style="font-style: italic;">Try it!</span>
+                    Try it!
                     <form action="https://www.google.com/search?q=">
                         <input type="text" placeholder="Search something!" name="q">
                         <input type="submit" placeholder="Search"/>
@@ -269,10 +284,10 @@
                     <br>
     
                     <li>
-                        <span style="font-weight: bold;">Youtube</span>
+                        Youtube
                     </li>
     
-                    <span style="font-style: italic;">Try it!</span>
+                    Try it!
                     <form action="https://www.youtube.com/results?search_query=">
                         <input type="text" placeholder="Search something!" name="q">
                         <input type="submit" placeholder="Search"/>
