@@ -5,24 +5,6 @@
     background-color:#E8EAE3;
 }
 
-@media (max-width: 767px) {
-    .highlight {
-        font-size: 16px;
-    }
-
-    .sub-highlight {
-        font-size: 14px;
-    }
-
-    p {
-        font-size: 12px;
-    }
-
-    #experience_container .scroll_item p {
-        font-size: 10px;
-    }
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -177,4 +159,30 @@ footer {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     text-align: center;
+}
+
+/* mobile devices */
+@media (max-width: 960px) {
+    .highlight {
+        font-size: 16px;
+    }
+
+    .sub-highlight {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #experience_container .scroll_item p {
+        font-size: 10px;
+    }
+}
+
+/* laptops */
+@media (min-width: 1200px) and (max-width: 1920px) {
+    .nav_links li {
+        padding: 0 12px;
+    }
 }
