@@ -2,316 +2,249 @@
 <html>
     <head>
         <title>
-            Yvonne Huang | Developer
+            Yvonne Huang | CS Student
         </title>
         <link rel="icon" type="image/x-icon" href="images/icon.ico">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
-
-        <link rel="stylesheet" href="style.css">
-
-        <style>
-            p {
-                display: block;
-                width: 100%;
-                font-size: 18px;
-            }
-        </style>
     </head>
     <body>
-        <header>
-            <a href="#"><img class="logo" src="images//logo.png"></a>
+        <div id="greetingMessage">
+            <img src="images//logo.png">
+            <h1>
+                Welcome to my profile!
+            </h1>
+        </div>
+
+        <div id="Menu">
             <nav>
-                <ul class="nav_links">
-                    <li><a href="#AboutMe"> About Me</a></li>
-                    <li><a href="#Education"> Education</a></li>
-                    <li><a href="#Experience"> Experience</a></li>
-                    <li><a href="#Skills"> Skills</a></li>
-                    <li><a href="#Interests"> Interests</a></li>
-                    <li><a href="#FavoriteMedia"> Favorite Media</a></li>
-                    <li><a href="#FavoriteWebsites"> Favorite Websites</a></li>
-                    <li><a href="#Projects"> Projects</a></li>
-                </ul>
+                <a href="#Menu"> Menu</a> |
+                <a href="#AboutMe"> About Me</a> |
+                <a href="#Education"> Education</a> |
+                <a href="#Experience"> Experience</a> |
+                <a href="#Skills"> Skills</a> |
+                <a href="#Interests"> Interests</a> |
+                <a href="#FavoriteMedia"> Favorite Media</a> |
+                <a href="#FavoriteWebsites"> Favorite Websites</a> |
+                <a href="#Projects"> Projects</a>
             </nav>
-        </header>
+        </div>
 
         <br>
 
-        <div class="profile">
-            <img src="images/profile.jpg">
-            <h1 style="color: #FA2742; font-weight: 500;">Yvonne Huang</h1>
-            <h3 style="font-weight: 300;">Student | Developer</h3>
+        <div id="AboutMe">
+            <h3>About Me</h3>
+            <img width="10%" src="images/profile.jpg">
+            <p>Hello! My name is Yvonne Huang and I am currently a fourth year <span style="color:firebrick;font-weight: bold;">Computer Science</span> major at St. John's University.</p>
+            <p>My interest in programming sparked from a curiosity in how video games worked as I grew older.</p>
+            <p>I started my game development passion through <span style="color:firebrick;font-weight: bold;">ROBLOX lua programming</span> and eventually gravitated towards <span style="color:firebrick;font-weight: bold;">Minecraft modding</span> and the <span style="color:firebrick;font-weight: bold;">Unity game engine</span>.</p>
+            <p></p>
         </div>
 
-        <div class="section_title" id="AboutMe">
-            <h2>About Me</h2>
+        <br>
+
+        <div id="Education">
+            <h3>Education</h3>
+            <img width="10%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.fpFsRbIxQaDA8CiU1ftUxwAAAA%26pid%3DApi&f=1&ipt=6e61ffffb261842053710978c2f12ae140b0b282f26ace71564e9019a5fd6ad6&ipo=images">
+            <p>
+                <span style="color:firebrick;font-weight: bold;">Degree: </span>B.S. in Computer Science
+                <br>
+                <span style="color:firebrick;font-weight: bold;">Graduation Date: </span>May 2024
+            </p>
         </div>
 
-        <div class="section">
-            <div class="container" id="about_me_container">
-                <div class="paragraph">
-                    <p>
-                        <span class="highlight">Hello!</span>
-                        My name is Yvonne Huang and I am currently a fourth year Computer Science major at St. John's University.
-                        My interest in programming sparked from a curiosity in how video games worked as I grew older.
-                        I started my game development passion through ROBLOX lua programming and eventually gravitated towards Minecraft modding and the Unity game engine.
-                    </p>
-                </div>
-            </div>
+        <br>
+
+        <div id="Experience">
+            <h3>Experience</h3>
+            <!-- setting padding and margin to 0 removes default spacing and centers element horizontally -->
+            <ul>
+                <li>
+                    <h4>
+                        <span style="font-style: italic;">"I Need Space" Developed for LA JAM 2022 (Game Jam)</span>
+                    </h4>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/37QHQd62LBY?si=vu3S4pmhrxiWS3Kb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p><a href="https://itch.io/jam/la-jam-2022/rate/1720745">Link to the game page</a></p>
+                    <p>- Collaborated with 6 other people to develop a game within 5 days.</p>
+                    <p>- Programmed the movement and UI in C# using the Unity game engine.</p>
+                    <p>- Helped implement character animations using the Unity animator and custom animation states.</p>
+                </li>
+                <li>
+                    <h4>
+                        <span style="font-style: italic;">Synford Text-Based RPG</span>
+                    </h4>
+                    <p><a href="https://github.com/wewewe08/Synford-Text-Based-RPG">Source code</a></p>
+                    <p>- Solo project programmed in Python and played in the terminal.</p>
+                    <p>- Video demo is shown on the github repository.</p>
+                </li>
+            </ul>
         </div>
 
-        <div class="section_title" id="Education">
-            <h2>Education</h2>
+        <br>
+
+        <div id="Skills">
+            <h3>Skills</h3>
+            <table>
+                <tr>
+                    <th>
+                        <span style="color:firebrick;">Front-end Development</span>
+                    </th>
+                    <th>
+                        <span style="color:firebrick;">Back-end Development</span>
+                    </th>
+                    <th>
+                        <span style="color:firebrick;">Tools</span>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="images/html.png" alt="HTML">
+                    </td>
+                    <td>
+                        <img src="images/python.png" alt="Python">
+                        <img src="images/java.png" alt="Java">
+                        <img src="images/cs.png" alt="C#">
+                        <img src="images/mysql.png" alt="MySQL">
+                    </td>
+                    <td>
+                        <img src="images/vscode.png" alt="VS Code">
+                        <img src="images/git.png" alt="Git">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span style="color:dimgray;">HTML</span>
+                    </td>
+                    <td>
+                        <span style="color:dimgray;">Python | Java | C# | MySQL</span>
+                    </td>
+                    <td>
+                        <span style="color:dimgray;">VS Code | Git</span>
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+
+            <p>
+                <span style="color:firebrick; font-weight: bold">Proficient: </span>
+                Python, Java, VS Code, Git
+
+                <br>
+
+                <span style="color:firebrick; font-weight: bold">Intermediate: </span>
+                C#, MySQL
+
+                <br>
+
+                <span style="color:firebrick; font-weight: bold;">Novice: </span>
+                HTML
+            </p>
         </div>
 
-        <div class="section">
-            <div class="container" id="education_container">
-                <p>
-                    <svg width="150" height="150">
-                        <image xlink:href="https://www.stjohns.edu/themes/sju_theme/assets/logos/logo-footer.svg" width="150" height="150" alt="school logo"/>
-                    </svg>
-                    <br>
-                    <span class="highlight">Degree: </span>B.S. in Computer Science
-                    <br>
-                    <span class="highlight">Graduation Date: </span>May 2024
-                </p>
-            </div>
+        <br>
+
+        <div id="Interests">
+            <h3>Interests</h3>
+            <p>
+                In my free time, I enjoy reading books and playing video games with friends.
+                <br>
+                Another hobby of mine is to edit videos of things I enjoy!
+                <br>
+                For example, I made the short game jam video(above) for my team.
+                <br>
+                I have also been trying to learn more about pixel art as well as trying to cook more often.
+            </p>
         </div>
 
-        <div class="section_title" id="Experience">
-            <h2>Experience</h2>
+        <br>
+
+        <div id="FavoriteMedia">
+            <h3>Favorite Media</h3>
+            <table>
+                <tr>
+                    <th>
+                        <span style="color:firebrick;">Favorite Song</span>
+                    </th>
+                    <th>
+                        <span style="color:firebrick;">Favorite Movie</span>
+                    </th>
+                    <th>
+                        <span style="color:firebrick;">Favorite TV Show</span>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4vJfBno2d0mTjMcYn5lEln?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </td>
+                    <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/iwROgK94zcM?si=0pVsEem_1jxThadv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </td>
+                    <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/aOC8E8z_ifw?si=cArrpsLdB0mAWGUN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span style="color:dimgray;">Ballroom Extravaganza</span>
+                    </td>
+                    <td>
+                        <span style="color:dimgray;">Howl's Moving Castle</span>
+                    </td>
+                    <td>
+                        <span style="color:dimgray;">The Mandalorian</span>
+                    </td>
+                </tr>
+            </table>
         </div>
 
-        <div class="section">
-            <div class="container" id="experience_container">
-                <div class = "scroll_item" id = "game_jam">
-                    <p>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/37QHQd62LBY?si=YQROo7P0o3Ill7xy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <br>
-                        <span class="highlight">I Need Space</span>
-                        <br>
-                        I Need Space is a singleplayer game developed in the Unity game engine for the LA Game Jam(2022). 
-                        I worked on the game as a programmer and implemented the user interface alongside some of the character animations. 
-                        You play as two characters at the same time, but the catch is that they have inverted movement mechanics.
-                    </p>
-                </div>
+        <br>
 
-                <div class = "scroll_item" id = "vehicular">
-                    <p>
-                        <span class="highlight">Vehicular Cloud Real Time System (VCRTS)</span>
-                        <br>
-                        VCRTS is a system simulation that manages computational resources and jobs into a database.
-                        I helped to program the user interface of the system by using JSwing and Java.
-                        Furthermore, I also aided in implementing the database collection using MySQL.
-                    </p>
-                </div>
+        <div id="FavoriteWebsites">
+            <h3>Favorite Websites</h3>
+            <ul>
+                <li>
+                    <span style="font-weight: bold;">Google</span>
+                </li>
 
-                <div class = "scroll_item" id = "synford">
-                    <img src="https://private-user-images.githubusercontent.com/31106392/269437085-b41cf945-cb70-4c3e-9484-d4abe511f231.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY0MTY5MDgsIm5iZiI6MTcwNjQxNjYwOCwicGF0aCI6Ii8zMTEwNjM5Mi8yNjk0MzcwODUtYjQxY2Y5NDUtY2I3MC00YzNlLTk0ODQtZDRhYmU1MTFmMjMxLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTI4VDA0MzY0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU4ODVhM2YyZGRlN2NiNjZiYjNiOWIwODRmNmY4M2I5NjI0OGVhNTg0MmZjZjFmMDU5MDdmODEwNmU4NGFmNTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.qKviGXbLW2YRbcnXXjzfrJ4pChFaPJiQ6JIJyeGNo0c">
-                    <br>
-                    <p>
-                        <span class="highlight">Synford Text-Based RPG</span>
-                        <br>
-                        Synford is a singleplayer game programmed in python and is played through the terminal.
-                        This was a solo project I had started in 2022 in order to learn more about Python.
-                        It includes a working inventory system as well as turn-based combat and randomized drops.
-                    </p>
-                </div>
-            </div>
+                <span style="font-style: italic;">Try it!</span>
+                <form action="https://www.google.com/search?q=">
+                    <input type="text" placeholder="Search something!" name="q">
+                    <input type="submit" placeholder="Search"/>
+                </form>
+
+                <br>
+
+                <li>
+                    <span style="font-weight: bold;">Youtube</span>
+                </li>
+
+                <span style="font-style: italic;">Try it!</span>
+                <form action="https://www.youtube.com/results?search_query=">
+                    <input type="text" placeholder="Search something!" name="q">
+                    <input type="submit" placeholder="Search"/>
+                </form>
+            </ul>
+            <p>
+                These are my most-used websites throughout my day!
+            </p>
         </div>
 
-        <div class="section_title" id="Skills">
-            <h2>Skills</h2>
+        <br>
+
+        <div id="Projects">
+            <h3>CUS1172 Projects</h3>
+            <ul>
+                <li>
+                    <a href="https://github.com/wewewe08/profile_page">Deploy a Profile Page</a>
+                </li>
+            </ul>
         </div>
 
-        <div class="section">
-            <div class="container" id="skills_container">
-                <table>
-                    <tr>
-                        <th>
-                            <span class="highlight">Front-end Development</span>
-                        </th>
-                        <th>
-                            <span class="highlight">Back-end Development</span>
-                        </th>
-                        <th>
-                            <span class="highlight">Tools</span>
-                        </th>
-                    </tr>
-    
-                    <tr>
-                        <td>
-                            <svg width="50" height="50">
-                                <image xlink:href="images/html.png" width="50" height="50" alt="HTML" />
-                            </svg>
-                            <svg width="50" height="50">
-                                <image xlink:href="images/css.png" width="50" height="50" alt="CSS" />
-                            </svg>
-                        </td>
-                        <td>
-                            <svg width="50" height="50">
-                                <image xlink:href="images/python.png" width="50" height="50" alt="Python" />
-                            </svg>
-                            <svg width="50" height="50">
-                                <image xlink:href="images/java.png" width="50" height="50" alt="Java" />
-                            </svg>
-                            <svg width="50" height="50">
-                                <image xlink:href="images/cs.png" width="50" height="50" alt="C#" />
-                            </svg>
-                            <svg width="50" height="50">
-                                <image xlink:href="images/mysql.png" width="50" height="50" alt="MySQL" />
-                            </svg>
-                        </td>
-                        <td>
-                            <svg width="50" height="50">
-                                <image xlink:href="images/vscode.png" width="40" height="40" alt="VS Code" />
-                            </svg>
-                            <svg width="50" height="50">
-                                <image xlink:href="images/git.png" width="40" height="40" alt="Git" />
-                            </svg>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td>
-                            <span class="sub-highlight">HTML | CSS</span>
-                        </td>
-                        <td>
-                            <span class="sub-highlight">Python | Java | C# | MySQL</span>
-                        </td>
-                        <td>
-                            <span class="sub-highlight">VS Code | Git</span>
-                        </td>
-                    </tr>
-                </table> 
-    
-                <p>
-                    <span class="highlight">Proficient: </span>
-                    Python, Java, VS Code, Git
-                    <br> 
-                    <span class="highlight">Intermediate: </span>
-                    C#
-                    <br>
-                    <span class="highlight">Novice: </span>
-                    HTML, CSS, MySQL
-                </p>
-            </div>
-        </div>
-
-        <div class="section_title" id="Interests">
-            <h2>Interests</h2>
-        </div>
-
-        <div class="section">
-            <div class="container" id="interests_container">
-                <p>
-                    In my free time, I enjoy reading books and playing video games with friends.
-                    <br>
-                    Another hobby of mine is to edit videos of things I enjoy!
-                    <br>
-                    For example, I made the short game jam video(above) for my team.
-                    <br>
-                    I have also been trying to learn more about pixel art as well as trying to cook more often.
-                </p>
-            </div>     
-        </div>
-
-        <div class="section_title" id="FavoriteMedia">
-            <h2>Favorite Media</h2>
-        </div>
-
-        <div class="section">
-            <div class="container" id="media_container">
-                <table>
-                    <tr>
-                        <th>
-                            <span class="highlight">Favorite Song</span>
-                        </th>
-                        <th>
-                            <span class="highlight">Favorite Movie</span>
-                        </th>
-                        <th>
-                            <span class="highlight">Favorite TV Show</span>
-                        </th>
-                    </tr>
-    
-                    <tr>
-                        <td>
-                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4vJfBno2d0mTjMcYn5lEln?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                        </td>
-                        <td>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/iwROgK94zcM?si=0pVsEem_1jxThadv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </td>
-                        <td>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/aOC8E8z_ifw?si=cArrpsLdB0mAWGUN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td>
-                            <span class="sub-highlight">Ballroom Extravaganza</span>
-                        </td>
-                        <td>
-                            <span class="sub-highlight">Howl's Moving Castle</span>
-                        </td>
-                        <td>
-                            <span class="sub-highlight">The Mandalorian</span>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <div class="section_title" id="FavoriteWebsites">
-            <h2>Favorite Websites</h2>
-        </div>
-
-        <div class="section"> 
-            <div class="container" id="websites_container">
-                <ul>
-                    <li>
-                        Google
-                    </li>
-    
-                    Try it!
-                    <form action="https://www.google.com/search?q=">
-                        <input type="text" placeholder="Search something!" name="q">
-                        <input type="submit" placeholder="Search"/>
-                    </form>
-    
-                    <br>
-    
-                    <li>
-                        Youtube
-                    </li>
-    
-                    Try it!
-                    <form action="https://www.youtube.com/results?search_query=">
-                        <input type="text" placeholder="Search something!" name="q">
-                        <input type="submit" placeholder="Search"/>
-                    </form>
-                </ul>
-                <p>
-                    These are my most-used websites throughout my day!
-                </p>
-            </div>
-        </div>
-
-        <div class="section_title" id="Projects">
-            <h2>CUS1172 Projects</h2>
-        </div>
-
-        <div class="section">
-            <div class="container" id="projects_container">
-                <ul>
-                    <li>
-                        <a href="https://github.com/wewewe08/profile_page">Deploy a Profile Page</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <!-- Adding some space between the Projects section and the footer section -->
+        <br><br>
 
         <!-- Footer -->
         <footer>
