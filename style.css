@@ -5,6 +5,24 @@
     background-color:#E8EAE3;
 }
 
+@media (max-width: 767px) {
+    .highlight {
+        font-size: 16px;
+    }
+
+    .sub-highlight {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #experience_container .scroll_item p {
+        font-size: 10px;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
