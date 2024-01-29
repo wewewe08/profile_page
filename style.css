@@ -244,6 +244,6 @@ button:hover {
 /* laptops */
 @media (min-width: 1200px) and (max-width: 1920px) {
     .nav_links li {
-        padding: 0 12px;
+        padding: 0 2px;
     }
 }
