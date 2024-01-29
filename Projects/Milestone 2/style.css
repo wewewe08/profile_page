@@ -9,7 +9,11 @@ html {
 }
 
 body {
+    /*
     background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 15%, rgb(63, 61, 61) 85%);
+    */
+
+    background-image: url(../../images/wallpaper.jpg);
 }
 
 /* nav menu styling */
@@ -23,7 +27,6 @@ header {
 }
 
 .logo {
-    width: 50%;
     cursor: pointer;
 }
 
@@ -33,7 +36,6 @@ header {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 20px;
 }
 
 .nav_links li a {
@@ -42,10 +44,30 @@ header {
     font-family: "Poppins", sans-serif;
 
     color: #E8EAE3;
+    padding: 0px 20px;
 }
 
 .nav_links li a:hover{
     color: #FA2742;
+}
+
+.nav_links .misc .dropdown {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    position: absolute;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.nav_links .misc:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.nav_links .misc .dropdown li {
+    display: block;
+    position: relative;
 }
 
 /* profile styling */
@@ -210,7 +232,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     padding-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .footer_container .content .socials .social_container {
@@ -218,8 +240,8 @@ button:hover {
 }
 
 .footer_container .bottom {
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 /* mobile devices */
