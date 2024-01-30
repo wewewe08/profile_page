@@ -19,11 +19,14 @@ body {
 /* nav menu styling */
 
 header {
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5));
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10%;
+    padding: 0px 5%;
     width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -260,12 +263,5 @@ button:hover {
 
     #experience_container .scroll_item p {
         font-size: 10px;
-    }
-}
-
-/* laptops */
-@media (min-width: 1200px) and (max-width: 1920px) {
-    .nav_links li {
-        padding: 0 2px;
     }
 }
