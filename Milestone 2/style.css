@@ -19,7 +19,7 @@ body {
 /* nav menu styling */
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5));
+    background: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,6 +58,8 @@ header {
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
+    background: black;
+    padding-bottom: 10px;
     position: absolute;
     transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
