@@ -1,0 +1,21 @@
+.navbar-nav .misc .dropdown {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    background: black;
+    padding: 10px 0px;
+    position: absolute;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.navbar-nav .misc:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.navbar-nav .misc .dropdown li {
+    display: block;
+    position: relative;
+    padding: 8px 0px;
+}
