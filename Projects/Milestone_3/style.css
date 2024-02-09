@@ -132,8 +132,40 @@ div h2 {
     font-size: 18px;
 }
 
+.carousel-indicators li {
+    background-color: #eea2ad;
+}
+
+.carousel-indicators .active {
+    background-color: #FA2742;
+}
+
+.glyphicon {
+   color: #FA2742;
+}
+
+.carousel-caption {
+    position: relative;
+    padding: 20px;
+    color: black;
+    max-width: 80%;
+    text-align: center;
+}
+
+.carousel-caption a {
+    padding: 20px;
+}
+
+#experience_button {
+    width: 200px;
+}
+
 #skills_container table {
     margin: 20px auto;
+}
+
+#skills_container th {
+    text-align: center;
 }
 
 #skills_container td{
