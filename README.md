@@ -1,4 +1,4 @@
 # profile_page
 CUS 1172 Intro to Web Development
 
-[Link to the website](https://wewewe08.github.io/profile_page/Projects/Milestone_2/index.html)
+[Link to the website](https://wewewe08.github.io/profile_page/Projects/Milestone_3/index.html)
